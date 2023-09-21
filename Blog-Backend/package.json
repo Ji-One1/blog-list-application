@@ -11,6 +11,8 @@
   "author": "Jione Ban",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
     "nodemon": "^3.0.1"
   },
   "dependencies": {

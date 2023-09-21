@@ -1,12 +1,7 @@
-const url = require('../utils/config').MONGODB_URI
+
 
 const mongoose = require('mongoose')
 
-
-
-mongoose.connect(url)
-    .then(result => console.log('connected to mongo'))
-    .catch(err => console.log('error:', err.message))
 
 const blogSchema = new mongoose.Schema({
     title: String,
